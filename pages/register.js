@@ -1,13 +1,10 @@
-import auth from '../layouts/auth'
-import authLayout from '../layouts/auth'
+import authLayout from '../layouts/auth';
 
 const RegisterPage = () => {
-    return (
-        <div>Register</div>
-    )
-}
+  return <div>Register</div>;
+};
 
-RegisterPage.Layout = authLayout
-RegisterPage.PageTitle = 'Join Today'
+RegisterPage.Layout = authLayout;
+RegisterPage.PageTitle = 'Join Today';
 
-export default RegisterPage
+export default RegisterPage;
